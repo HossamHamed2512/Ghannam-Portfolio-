@@ -5,19 +5,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Project Gallery Data
 const projectGalleries = {
-  "fashion-brand": {
-    title: "Fashion Brand Campaign",
+  "social-media-campaign": {
+    title: "Social Media Campaign",
     images: [
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&h=800&fit=crop",
     ],
   },
-  "tech-startup": {
-    title: "Tech Startup Campaign",
+  "ad-campaign": {
+    title: "Digital Ad Campaign",
     images: [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=800&fit=crop",
@@ -27,10 +27,10 @@ const projectGalleries = {
       "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=800&fit=crop",
     ],
   },
-  "snapchat-ar-filter": {
-    title: "AR Beauty Enhancement Filter",
+  "photo-manipulation": {
+    title: "Photo Manipulation Design",
     images: [
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1616469829581-73993eb86b02?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=800&fit=crop",
@@ -38,30 +38,8 @@ const projectGalleries = {
       "https://images.unsplash.com/photo-1614149162883-504ce4d13909?w=800&h=800&fit=crop",
     ],
   },
-  "snapchat-game-filter": {
-    title: "Interactive AR Game Filter",
-    images: [
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1593349480506-8433634cdcbe?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1614680376573-df3480f65a38?w=800&h=800&fit=crop",
-    ],
-  },
-  "snapchat-brand-filter": {
-    title: "Brand Experience AR Filter",
-    images: [
-      "https://images.unsplash.com/photo-1616469829581-73993eb86b02?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1522735338363-cc7313be0ae0?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1607696829245-162d2d6d2f8c?w=800&h=800&fit=crop",
-    ],
-  },
   "motion-graphics": {
-    title: "Motion Graphics Project",
+    title: "2D Motion Graphics",
     images: [
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=800&fit=crop",
@@ -71,81 +49,26 @@ const projectGalleries = {
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=800&fit=crop",
     ],
   },
-  "crypto-platform": {
-    title: "Crypto Platform Design",
+  "video-editing": {
+    title: "Video Editing Project",
     images: [
-      "https://images.unsplash.com/photo-1640161704729-cbe966a08476?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1644143379271-8c93c61d5c72?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1621761191405-ea668565ffaa?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1574267432553-8b4b88fa3297?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1593349480506-8433634cdcbe?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1614680376573-df3480f65a38?w=800&h=800&fit=crop",
     ],
   },
-  "fitness-brand": {
-    title: "Fitness Brand Campaign",
+  "brand-design": {
+    title: "Brand Design Project",
     images: [
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1540479859555-17af45c78602?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1571019612587-d77aa0b99c6b?w=800&h=800&fit=crop",
-    ],
-  },
-  "beauty-brand": {
-    title: "Beauty Brand Visuals",
-    images: [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1540513092892-5b4b17fb9ad7?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&h=800&fit=crop",
-    ],
-  },
-  "travel-agency": {
-    title: "Travel Agency Content",
-    images: [
-      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1501436513145-30f24e19fcc4?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=800&h=800&fit=crop",
-    ],
-  },
-  "ecommerce-store": {
-    title: "E-commerce Store Design",
-    images: [
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1486025402772-bc179c8dfb0e?w=800&h=800&fit=crop",
-    ],
-  },
-  "gaming-app": {
-    title: "Gaming App Promotion",
-    images: [
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1593349480506-8433634cdcbe?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1556438064-2d7646166914?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1614680376573-df3480f65a38?w=800&h=800&fit=crop",
-    ],
-  },
-  "music-visualizer": {
-    title: "Music Visualizer Project",
-    images: [
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1574182245530-967d9b3bb945?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1524245581429-8ba42e94c7ca?w=800&h=800&fit=crop",
     ],
   },
 };
@@ -1235,12 +1158,54 @@ document.addEventListener("DOMContentLoaded", () => {
   initParallaxEffects();
   initTextAnimations();
   initPortfolioGallery();
+  initSocialIcons();
 
   // Initialize portfolio tabs after a short delay
   setTimeout(() => {
     initPortfolioTabs();
   }, 500);
 });
+
+// Social Icons Click Functionality
+function initSocialIcons() {
+  // WhatsApp functionality
+  const whatsappIcon = document.querySelector('.social-icon.whatsapp');
+  if (whatsappIcon) {
+    whatsappIcon.addEventListener('click', () => {
+      openWhatsApp();
+    });
+  }
+
+  // Add click events to other social icons
+  const instagramIcon = document.querySelector('.social-icon.instagram');
+  if (instagramIcon) {
+    instagramIcon.addEventListener('click', () => {
+      window.open('https://www.instagram.com/m_8annam/', '_blank');
+    });
+  }
+
+  const facebookIcon = document.querySelector('.social-icon.facebook');
+  if (facebookIcon) {
+    facebookIcon.addEventListener('click', () => {
+      window.open('https://www.facebook.com/moghaannam', '_blank');
+    });
+  }
+
+  const linkedinIcon = document.querySelector('.social-icon.linkedin');
+  if (linkedinIcon) {
+    linkedinIcon.addEventListener('click', () => {
+      window.open('https://www.linkedin.com/in/8annam/', '_blank');
+    });
+  }
+}
+
+// WhatsApp Function
+function openWhatsApp() {
+  const phoneNumber = "201007209512";
+  const message = "Hello! I'm interested in your design services.";
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
+}
 
 // Handle window resize
 window.addEventListener("resize", () => {
