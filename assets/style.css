@@ -623,7 +623,6 @@ section {
     color: var(--text-secondary);
     line-height: 1.9;
     margin: 0 auto 70px auto;
-    max-width: 800px;
     font-weight: 500;
 }
 
