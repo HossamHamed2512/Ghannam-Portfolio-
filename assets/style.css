@@ -860,7 +860,6 @@ section {
     white-space: nowrap;
     flex: 1;
     text-align: center;
-    min-width: 130px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
