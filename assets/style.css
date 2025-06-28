@@ -413,7 +413,7 @@ body {
     height: 100%;
     background: var(--gradient-neon);
     opacity: 0.15;
-    border-radius: 50%;
+    
 }
 
 .floating-icons {
@@ -942,7 +942,6 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1016,7 +1015,7 @@ section {
     border: 1px solid var(--primary);
     border-radius: 25px;
     font-size: 0.9rem;
-    color: var(--primary);
+    color: #fff;
     font-weight: 600;
     transition: all 0.3s ease;
 }
@@ -1483,7 +1482,7 @@ section {
     /* Mobile Gallery Button - Show on Tablet */
     .image-overlay {
         opacity: 0.8;
-        background: rgba(0, 0, 0, 0.7);
+        
     }
 
     .portfolio-card:hover .image-overlay {
@@ -1643,7 +1642,6 @@ section {
     /* Mobile Gallery Button - Always Visible */
     .image-overlay {
         opacity: 1;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
         align-items: flex-end;
         padding-bottom: 20px;
     }
@@ -1746,7 +1744,6 @@ section {
     /* Mobile Gallery Button - Enhanced Visibility */
     .image-overlay {
         opacity: 1;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%);
     }
 
     .overlay-content h3 {
